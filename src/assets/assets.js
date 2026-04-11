@@ -7,6 +7,7 @@ import projectImg3 from '../assets/project3.avif';
 import projectImg4 from '../assets/project4.avif';
 import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
+import darazClone from '../assets/daraz-clone.png';
 
 
 export const assets = {
@@ -74,33 +75,14 @@ export const skills = [
 
 
 export const projects = [
-  {
-    title: "Portfolio Website",
-    description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
-    image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
-    icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "Chat App",
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
-    image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "AI Image Generator",
-    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
-    image: projectImg6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-    icons: [FaRobot, FaReact, FaCloud],
-    demo: "#",
-    code: "#",
-  }
+ {
+  title: "Daraz Clone",
+  description: "Developed a Daraz-inspired e-commerce frontend with responsive design, product listings, category sections, and modern UI components.",
+  image: darazClone,
+  tech: ["React", "Tailwind CSS", "JavaScript"],
+  icons: [FaReact, FaNodeJs, FaDatabase],
+  demo: "https://daraz-clone-rose.vercel.app/"
+}
 ];
 
 

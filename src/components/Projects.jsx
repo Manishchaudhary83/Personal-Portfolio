@@ -41,4 +41,4 @@ function Projects() {
   )
 }
 
-export default Projects
+export default Projects;
