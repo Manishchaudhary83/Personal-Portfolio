@@ -6,6 +6,7 @@ import Projects from '../components/Projects'
 import Work from '../components/Work'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import GithubContributions from '../components/GithubContributions'
 
 function Home() {
   return (
@@ -15,8 +16,10 @@ function Home() {
       <Skills/>
       <Projects/>
       <Work/>
+       <GithubContributions/>
       <Contact/>
       <Footer/>
+
     </div>
   )
 }
