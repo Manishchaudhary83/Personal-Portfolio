@@ -34,7 +34,7 @@ export default function Contact() {
     whileInView={{opacity:1, y:0}}
     transition={{duration:1, ease: 'easeOut'}}
     viewport={{once: false, amount:0.2}}
-    id='contact'    
+    id='contact'
     className='py-20 bg-dark-200'
     >
         <div className='container mx-auto px-6'>
@@ -74,7 +74,7 @@ export default function Contact() {
                         <div>
                             <h3 className='text-lg font-semibold mb-2 '>Location</h3>
                             <p className='text-gray-400'>Bharatpur-10, Chitwan</p>
-                        </div>   
+                        </div>
                     </div>
                     <div className='flex items-start'>
                         <div className='text-blue text-2xl mr-4 ' >
@@ -83,7 +83,7 @@ export default function Contact() {
                         <div>
                             <h3 className='text-lg font-semibold mb-2 '>Email</h3>
                             <p className='text-gray-400'>jaiswalmanishm01@gmail.com</p>
-                        </div>   
+                        </div>
                     </div>
                     <div className='flex items-start'>
                         <div className='text-blue text-2xl mr-4 ' >
@@ -92,7 +92,7 @@ export default function Contact() {
                         <div>
                             <h3 className='text-lg font-semibold mb-2 '>Phone</h3>
                             <p className='text-gray-400'>+977-9765041950</p>
-                        </div>   
+                        </div>
                     </div>
 
                     <div className='pt-4'>
@@ -115,7 +115,7 @@ export default function Contact() {
 
             </div>
         </div>
-      
+
     </motion.div>
   )
 }
